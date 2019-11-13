@@ -6,6 +6,6 @@ module.exports = {
   resolver: '@nrwl/jest/plugins/resolver',
   moduleFileExtensions: ['ts', 'js', 'html'],
   coverageReporters: ['html'],
-  setupFiles: ['/Users/mobility/git/mine/setup-jest.ts'],
+  setupFiles: ['<rootDir>/../../setup-jest.ts'],
   passWithNoTests: true
 };
